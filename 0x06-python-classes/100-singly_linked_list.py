@@ -1,4 +1,17 @@
-#rivate; can be None or Node object
+#!/usr/bin/python3
+"""
+Module 100-singly_linked_list
+Defines class Node (with private data and next_node)
+Defines class SinglyLinkedList (with private head and public sorted_insert)
+"""
+
+
+class Node:
+    """
+    class Node definition
+    Args:
+        data (int): private
+        next_node : private; can be None or Node object
     Functions:
         __init__(self, data, next_node=None)
         data(self)
